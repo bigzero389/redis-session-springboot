@@ -1,0 +1,17 @@
+spring:
+  # Redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    password:
+#    timeout: 10m
+  # Session
+  session:
+    store-type: redis
+    redis:
+      flush-mode: on_save
+
+#server:
+#  servlet:
+#    session:
+#      timeout: 600
